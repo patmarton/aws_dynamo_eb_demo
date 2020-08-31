@@ -1,9 +1,7 @@
 package com.example.awstutorial.demo.entity;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.io.Serializable;
 
