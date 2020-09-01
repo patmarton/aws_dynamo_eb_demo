@@ -12,7 +12,7 @@ public class PersonResource {
     private PersonRepository repository;
 
     @PostMapping("/savePerson")
-    public Person savePerson(@RequestParam Person person){
+    public Person savePerson(@RequestBody Person person){
         return repository.addPerson(person);
     }
 
